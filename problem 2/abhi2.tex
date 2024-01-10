@@ -1,0 +1,42 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\parindent 0px
+\begin{document}
+ Abhilash Rapolu \hfill {\Large ASSIGNMENT 1} \hfill \today
+\\EE23BTECH11052
+\subsection*{Question 11.9.2.10}
+ If the sum of first $p$ terms of an A.P. is equal to the sum of the first $q$ terms, then
+ find the sum of the first $(p + q)$ terms?
+
+\subsection*{Solution:}
+The sum of first $p$ terms of an arithmetic progression (A.P) is given by
+\bgroup \obeylines
+Let $a_1$ be the first term which is $a_0+d$
+$$s_p =\frac{q}{2}[2a_1+(q-1)d]$$
+$$s_p =\frac{q}{2}[2a_0+(q+1)d]$$
+If $s_p$=$s_q$,then:
+$$\frac{p}{2}[2a_0+(p+1)d]=\frac{q}{2}[2a_0+(q+1)d]$$
+simplifying the equation we get:
+\egroup
+\begin{equation}
+(p)*(2a_0+pd+d)=(q)*(2a_0+qd+d)
+\end{equation}
+\begin{equation}
+2a_0p+(p^2)*d+pd=2a_0q+(q^2)*d+qd
+\end{equation}
+\begin{equation}
+2a_0(p-q)+(p-q)(p+q)*d+(p-q)*d=0
+\end{equation}
+\begin{equation}
+(p-q)[2a_0+(p+q)*d+d]=0
+\end{equation}
+since $p$ and $q$ are not equal.We can eliminate the term $(p-q)$
+\begin{equation}
+2a_0+(p+q)*d+d=0
+\end{equation}
+ Sum of the first $p+q$
+$$S_{p+q}=\frac{p+q}{2}[2a_0+(p+q+1)*d]$$
+\\As we have seen in the equation $(5)$ $2a_0+(p+q)*d+d=0$ is $0$.
+ Therefore $S_{p+q}$ is $0$.
+\end{document}
