@@ -1,0 +1,40 @@
+% \iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\begin{document}
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{NCERT 11.15. Q10}
+\author{EE23BTECH11052 - Abhilash Rapolu $^{*}$% <-this % stops a space
+}
+\maketitle
+\newpage
+\bigskip
+\renewcommand{\thetable}{\arabic{table}}
+\bibliographystyle{IEEEtran}
+\parindent 0px
+\textbf{Question:} A radio can tune in to any station in the 7.5 MHz to 12 MHz band.
+ What is the corresponding wavelength band? 
+\textbf{Solution:}  
+\begin{table}[htbp] \small
+\centering
+\input{table1}
+\caption{Given \, parameters list}\end{table}
+The wavelength ($\lambda$) of a radio wave is inversely proportional to its frequency (f).
+\bgroup \obeylines
+$$\lambda=c/f$$
+$$\lambda_{max}=c/f_{min}$$
+\egroup
+\begin{equation}
+\lambda_{max}=(3*10^{8})/(7.5*10^{6})=40
+\end{equation}
+For 12MHz:
+$$\lambda_{min}=c/f(max)$$
+\begin{equation}
+\lambda_{min}=(3*10^{8})/(12*10^{6})=25
+\end{equation}
+Therefore, the radio can tune in to wavelengths ranging from 25 meters to 40 meters.
+\end{document}
