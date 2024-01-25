@@ -1,0 +1,40 @@
+% \iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\parindent 0px
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{NCERT 11.9. Q2}
+\author{EE23BTECH11052 - Abhilash Rapolu $^{*}$% <-this % stops a space
+}
+\begin{document}
+\maketitle
+\newpage
+\bigskip
+\ Question: If the sum of first $p$ terms of an A.P. is equal to the sum of the first $q$ terms, then
+ find the sum of the first $(p + q)$ terms.
+\ Solution:  
+\\The sum of first $p$ terms of an arithmetic progression (A.P) is given by
+$$s_p =\frac{q}{2}[2a+(q)d]$$
+If $s_p$=$s_q$,then:
+$$\frac{p}{2}[2a+(p)d]=\frac{q}{2}[2a+(q)d]$$
+simplifying the equation we get:
+\begin{align}
+p*(2a+pd)=q*(2a+qd)
+2ap+(p^2)*d=2aq+(q^2)*d
+2a(p-q)+(p-q)(p+q)*d=0
+(p-q)[2a+(p+q)*d]=0
+\end{align} 
+since $p$ and $q$ are not equal.We can eliminate the term $(p-q)$
+Now the equation becomes :
+$$2a+(p+q)*d=0\longrightarrow{1}$$
+Now to find the sum of the first $p+q$ terms $S_{p+q}$,you can use the formula:
+$$S_{p+q}=\frac{p+q}{2}[2a+(p+q)*d]$$
+As we have seen in the equation $1$ : $2a+(p+q)*d=0$ is $0$.
+ Therefore $S_{p+q}$ is $0$.
+\end{document}
+
